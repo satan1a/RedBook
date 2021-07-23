@@ -1,10 +1,10 @@
-# RedBook
+# Index
 
 在[Threathunting-book](https://github.com/12306Bro/Threathunting-book)项目基础上进行完善的狩猎视角红队handbook，感谢原作者们的努力。
 
 ## 目录
 
--   侦查
+-   侦察
 -   资源开发
 -   初始访问
 -   执行

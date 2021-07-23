@@ -66,19 +66,19 @@ windows 安全日志/windows BITS应用日志/Windows sysmon日志
 
 ## 测试复现
 
-![image1](https://img2018.cnblogs.com/blog/894761/201911/894761-20191111110145812-668139170.png)
+![image1](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/894761-20191111110145812-668139170.png)
 
-![image2](https://img2018.cnblogs.com/blog/894761/201911/894761-20191111110227491-23710429.png)
+![image2](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/894761-20191111110227491-23710429.png)
 
-![image3](https://img2018.cnblogs.com/blog/894761/201911/894761-20191111110245500-1362389929.png)
+![image3](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/894761-20191111110245500-1362389929.png)
 
 ## 测试留痕
 
-![image4](https://s2.ax1x.com/2020/01/14/lqedzV.png)
+![image4](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/lqedzV.png)
 
-![image5](https://s2.ax1x.com/2020/01/14/lqeWz6.png)
+![image5](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/lqeWz6.png)
 
-![image6](https://s2.ax1x.com/2020/01/14/lqmiYn.png)
+![image6](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/lqmiYn.png)
 
 ## 检测规则/思路
 

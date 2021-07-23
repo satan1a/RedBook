@@ -22,11 +22,11 @@ windows 安全日志/sysmon日志
 
 windows 2012以上操作系统
 
-![ping1](https://i.postimg.cc/SKRFh1KT/1.png)
+![ping1](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/1.png)
 
 ## 测试留痕
 
-![ping2](https://i.postimg.cc/bNh7JwJ2/ping2.png)
+![ping2](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/ping2.png)
 
 ## 检测规则/思路
 
