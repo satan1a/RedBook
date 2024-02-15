@@ -16,3 +16,9 @@ extra:
 
 repo_url: https://github.com/satan1a/RedBook
 repo_name: Toky/RedBook
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
